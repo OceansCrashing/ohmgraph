@@ -3,6 +3,11 @@ ohmgraph
 
 Simple web application built on the Yii 2.0 framework that pulls data from the existing OpenHardwareMonitor and presents it in a live-updating (AJAX for now) graph.  I leave this running on a tablet, so that when I'm rendering or running games, I have relevant data available at a glance.  I've included the meta tags for apple, so if you have an iPad or iPhone, you can add the page to your homescreen and it'll open without tabs or the address bar, in fullscreen.
 
+
+![pic1](https://cloud.githubusercontent.com/assets/3989824/23152917/574f4c0e-f7d3-11e6-9f1e-4063fc6d3ebd.jpg)
+![pic2](https://cloud.githubusercontent.com/assets/3989824/23152916/5746fa90-f7d3-11e6-8b74-87f2093dddf4.jpg)
+
+
 DIRECTORY STRUCTURE
 -------------------
 
@@ -34,14 +39,11 @@ If you do not have [Composer](http://getcomposer.org/), you may install it by fo
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
 
-Allow composer to manage bower and node requirements:
+Allow composer to manage bower and node requirements, then install dependencies:
 ~~~
 php composer.phar global require "fxp/composer-asset-plugin:^1.2.0"
-install dependencies:
-~~~
 php composer.phar install
 ~~~
-
 
 CONFIGURATION
 -------------
